@@ -7,9 +7,11 @@
 
 <!-- estilização por documento -->
     <style>
+       
         body
         {
-            background-color: #f5f5f5;
+            background-color: hsl(259, 86%, 72%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .container 
@@ -17,11 +19,14 @@
             background-color: #e9e9e9 ;
             margin: auto;
             width: 600px;
+            box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
         } 
 
         .header
         {
-            padding: 20px;
+            padding: 40px;
         }
 
         .flex-container
@@ -31,13 +36,39 @@
             justify-content: space-around;
             padding: 20px;
         }
+
+        .header-title
+        {
+            color: #006f6f;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .sub-headr
+        {
+           margin-bottom: 15px;
+           color: #009e9e;
+           font-size: 18px;
+           font-weight: 500;
+        }
+        
         </style>
 
 </head>
 <body>
         <div class="container"> <!-- Div principal para o primeiro sistema como um todo -->
             <div class="header">   
-                primeira linha 
+                <div class="header-title"> 
+                    Entre para a nossa comunidade!
+                </div>
+                <div class="sub-headr">
+                    Faça sua assinatura agora e ganha 30% de desconto!
+                </div>
+                <div>
+                    Faça parte da nossa comunidade de desenvolvedores.<br>
+                    Tenha suporte da nossa equipe e cresça mais rápido na sua carreira.
+                </div>
             </div>
             <div class="flex-container">
                 <div>
