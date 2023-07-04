@@ -17,7 +17,7 @@
 
         .header
         {
-            padding: 2.5rem;
+            padding: 1rem;
         }
 
         .flex-container
@@ -160,6 +160,7 @@
             margin-bottom: 1.25rem;
             margin-top: 1.25rem;
             margin-left: 1.5rem;
+            padding: 0.9rem;
         }
 
         .cadastro-sub
@@ -174,38 +175,19 @@
 
         .coluna-cadastro
         {
-            background-color: #006a6a;
-            width: 100%;
-            padding: 1.25rem 1rem;
-            color: #ffff;
+            background-color: #006A6A;
+            padding: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: space-around;
+            color: #e9e9e9;
         }
 
-        .btn-cadastro
-        {
-            width: 100;
-            padding: 1rem  2rem;
-            color: #006a6a;
-            font-size: 1rem;
-            border-radius: 5px;
-            border: none;
-            background-color: #cccccc;
-            margin-top: 1.2rem;
-            cursor: pointer;
-            margin-bottom: 1.2rem;
-            
-            
-        }
-
-        .btn-cadastro:hover
-        {
-            background-color: #e9e9e9;
-        }
-
-        input
-        {
-            width: 85%;
+        input {
+            width: 95%;
             height: 22px;
-            padding: 0.9rem 0.5rem;
+            padding: 0.9rem;
             font-size: 1.2rem;
             border-radius: 5px;
             border: 0;
