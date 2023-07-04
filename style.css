@@ -1,7 +1,7 @@
 
         body
         {
-            background-color: hsl(145, 49%, 8%);
+            background-color: hsl(0, 0%, 87%);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
@@ -146,3 +146,56 @@
                 width: 95%;
             }
         }
+
+        .cadastro-title
+        {
+            color: #006f6f;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            margin-top: 1.25rem;
+            margin-left: 1.5rem;
+        }
+
+        .cadastro-sub
+        {
+            margin-bottom: 1.2rem;
+            color: #009e9e;
+            font-size: 1.15rem;
+            font-weight: 500;
+            margin-left: 1.5rem;
+           
+        }
+
+        .coluna-cadastro
+        {
+            background-color: #006a6a;
+            width: 100%;
+            padding: 1.25rem;
+            color: #ffff;
+        }
+
+        .btn-cadastro
+        {
+            width: 25%;
+            padding: 0.9rem  2rem;
+            color: #006a6a;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: none;
+            background-color: #cccccc;
+            margin-top: 1.2rem;
+            cursor: pointer;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+
+        .btn-cadastro:hover
+        {
+            background-color: #e9e9e9;
+        }
+
+
