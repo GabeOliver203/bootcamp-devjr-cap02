@@ -145,6 +145,11 @@
             {
                 width: 95%;
             }
+
+            .header
+            {
+                padding: 0.96rem;
+            }
         }
 
         .cadastro-title
@@ -159,7 +164,7 @@
 
         .cadastro-sub
         {
-            margin-bottom: 1.2rem;
+            margin-bottom: 2rem;
             color: #009e9e;
             font-size: 1.15rem;
             font-weight: 500;
@@ -171,14 +176,14 @@
         {
             background-color: #006a6a;
             width: 100%;
-            padding: 1.25rem;
+            padding: 1.25rem 1rem;
             color: #ffff;
         }
 
         .btn-cadastro
         {
-            width: 25%;
-            padding: 0.9rem  2rem;
+            width: 100;
+            padding: 1rem  2rem;
             color: #006a6a;
             font-size: 1rem;
             border-radius: 5px;
@@ -186,16 +191,31 @@
             background-color: #cccccc;
             margin-top: 1.2rem;
             cursor: pointer;
-            text-align: center;
-            display: block;
-            margin: 0 auto;
-            text-align: center;
+            margin-bottom: 1.2rem;
+            
             
         }
 
         .btn-cadastro:hover
         {
             background-color: #e9e9e9;
+        }
+
+        input
+        {
+            width: 85%;
+            height: 22px;
+            padding: 0.9rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            border: 0;
+            margin: 10px;
+        }
+
+        input:focus
+        {
+            outline: none;
+            box-shadow: 0 0 10px #009e9e;
         }
 
 
